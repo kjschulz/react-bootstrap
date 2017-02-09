@@ -8,7 +8,6 @@ lib/
 !tools/lib/
 es/
 !tools/es/
-dist/
 !tools/dist/
 docs-built/
 tmp-bower-repo/
