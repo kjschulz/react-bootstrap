@@ -209,6 +209,7 @@ var Pagination = function (_React$Component) {
       first && React.createElement(
         PaginationButton,
         _extends({}, buttonProps, {
+          className: 'btn-first',
           eventKey: 1,
           disabled: activePage === 1
         }),
@@ -235,6 +236,7 @@ var Pagination = function (_React$Component) {
       next && React.createElement(
         PaginationButton,
         _extends({}, buttonProps, {
+          className: 'btn-next',
           eventKey: activePage + 1,
           disabled: activePage >= items
         }),
@@ -247,6 +249,7 @@ var Pagination = function (_React$Component) {
       last && React.createElement(
         PaginationButton,
         _extends({}, buttonProps, {
+          className: 'btn-last',
           eventKey: items,
           disabled: activePage >= items
         }),
